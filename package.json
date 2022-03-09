@@ -1,9 +1,9 @@
 {
   "private": true,
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "bootstrap": "^4.6.0",
-    "browser-sync": "^2.26.14",
+    "autoprefixer": "^9.8.8",
+    "bootstrap": "^4.6.1",
+    "browser-sync": "^2.27.7",
     "del": "^4.1.1",
     "gh-pages": "^2.2.0",
     "gulp": "^4.0.2",
