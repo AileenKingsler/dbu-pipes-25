@@ -1,0 +1,14 @@
+.heading-with-icon {
+  &::after {
+    content: '';
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url('../img/heading-icon.svg');
+  }
+}

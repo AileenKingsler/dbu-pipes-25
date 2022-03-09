@@ -1,4 +1,7 @@
-@import "vars";
-@import "fonts";
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "global";
+@import 'vars';
+@import 'fonts';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'global';
+@import 'blocks/heading-with-icon';
+@import 'blocks/btn';
+@import 'blocks/accordion';

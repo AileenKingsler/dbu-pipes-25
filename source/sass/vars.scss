@@ -1,1 +1,35 @@
-$font-family-sans-serif: "Open Sans", "Helvetica", sans-serif;
+$font-family-sans-serif: 'Avenir Next Cyr', 'Helvetica', sans-serif;
+$body-color: #0b0b0b;
+$blue: #2aa6fd;
+$red: #f55757;
+$light: #f6f7fb;
+$headings-font-weight: bold;
+$font-size-base: 1rem;
+$h2-font-size: $font-size-base * 2.25;
+
+$spacers: ();
+$spacers: map-merge(
+  (
+    30p: 30px,
+    40p: 40px,
+    80p: 80px,
+  ),
+  $spacers
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+);
+
+$input-btn-focus-width: 0;
+$btn-border-width: 0;
+$btn-border-radius-lg: 6px;
