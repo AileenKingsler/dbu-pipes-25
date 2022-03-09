@@ -32,7 +32,7 @@ gulp.task("copy", function () {
     base: "source",
     allowEmpty: true
   })
-  .pipe(gulp.dest("build"));
+    .pipe(gulp.dest("build"));
 });
 
 gulp.task("css", function () {
@@ -55,8 +55,9 @@ gulp.task("scripts", function () {
     gulp.src([
       "node_modules/jquery/dist/jquery.min.js",
       "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "source/js/jquery.fancybox.min.js",
       "source/js/scripts.js"
-      ]),
+    ]),
     concat("scripts.min.js"),
     uglify(),
     gulp.dest("build/js")
@@ -66,11 +67,11 @@ gulp.task("scripts", function () {
 gulp.task("images", function () {
   return gulp.src("source/img/**/*.{png,jpg,svg}")
     .pipe(imagemin([
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 5}),
+      imagemin.jpegtran({ progressive: true }),
+      imagemin.optipng({ optimizationLevel: 5 }),
       imagemin.svgo({
         plugins: [
-          {removeViewBox: false}
+          { removeViewBox: false }
         ]
       })
     ]))
@@ -79,7 +80,7 @@ gulp.task("images", function () {
 
 gulp.task("webp", function () {
   return gulp.src("source/img/**/*.{png,jpg}")
-    .pipe(webp({quality: 90}))
+    .pipe(webp({ quality: 90 }))
     .pipe(gulp.dest("source/img/webp"));
 });
 

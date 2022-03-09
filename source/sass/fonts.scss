@@ -9,18 +9,27 @@
 
 @font-face {
   font-family: 'Avenir Next Cyr';
-  src: url('../fonts/avenirnextcyr-bold.woff2') format('woff2'),
-    url('../fonts/avenirnextcyr-bold.woff') format('woff');
-  font-weight: bold;
+  src: url('../fonts/avenirnextcyr-demi.woff2') format('woff2'),
+    url('../fonts/avenirnextcyr-demi.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Avenir Next Cyr';
-  src: url('../fonts/avenirnextcyr-demi.woff2') format('woff2'),
-    url('../fonts/avenirnextcyr-demi.woff') format('woff');
+  src: url('../fonts/avenirnextcyr-medium.woff2') format('woff2'),
+    url('../fonts/avenirnextcyr-medium.woff') format('woff');
   font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../fonts/avenirnextcyr-bold.woff2') format('woff2'),
+    url('../fonts/avenirnextcyr-bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
