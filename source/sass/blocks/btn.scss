@@ -1,3 +1,15 @@
+@property --blue1 {
+  syntax: '<color>';
+  initial-value: #4879f8;
+  inherits: false;
+}
+
+@property --blue2 {
+  syntax: '<color>';
+  initial-value: #1bbaff;
+  inherits: false;
+}
+
 @property --red1 {
   syntax: '<color>';
   initial-value: #f55757;
@@ -12,11 +24,20 @@
 
 .btn {
   &-gradient {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 20px;
+    padding: 25px;
+
+    &.btn-primary {
+      background-image: linear-gradient(90deg, var(--blue1), var(--blue2));
+      transition: --blue2 0.4s;
+
+      &:hover {
+        --blue2: var(--blue1);
+      }
+    }
 
     &.btn-danger {
       background-image: linear-gradient(90deg, var(--red1), var(--red2));
@@ -31,12 +52,14 @@
   &-with-arrow {
     position: relative;
     text-align: left;
-    padding-right: 50px;
+    padding-right: 55px;
 
     &::after {
       content: '';
       position: absolute;
-      right: 20px;
+      right: 25px;
+      top: 50%;
+      margin-top: -10px;
       width: 20px;
       height: 20px;
       background-repeat: no-repeat;
@@ -47,7 +70,7 @@
 
     &:hover {
       &::after {
-        right: 10px;
+        right: 15px;
       }
     }
   }

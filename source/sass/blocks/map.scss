@@ -1,0 +1,25 @@
+.map {
+  position: relative;
+
+  &-overlay {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 130px;
+
+    @media (max-width: 575px) {
+      top: 30px;
+    }
+  }
+
+  &-info {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+
+    @media (max-width: 575px) {
+      max-width: 340px;
+    }
+  }
+}

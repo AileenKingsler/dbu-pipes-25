@@ -1,0 +1,28 @@
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 24px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 24px;
+  }
+
+  a {
+    color: inherit;
+    transition: 0.25s;
+
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+
+  &--fs-12 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
