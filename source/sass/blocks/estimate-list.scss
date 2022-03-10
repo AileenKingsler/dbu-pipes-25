@@ -1,0 +1,34 @@
+.estimate-list {
+  counter-reset: li;
+  font-size: 18px;
+
+  li {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 48px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 24px;
+      }
+    }
+
+    &::before {
+      content: '0' counter(li);
+      counter-increment: li;
+      color: #fff;
+      font-size: 96px;
+      line-height: 80px;
+      font-weight: bold;
+      -webkit-text-stroke: 1px $primary;
+      margin-right: 16px;
+
+      @media (max-width: 575px) {
+        content: counter(li);
+        font-size: 48px;
+        line-height: 44px;
+        margin-right: 8px;
+      }
+    }
+  }
+}
