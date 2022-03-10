@@ -56,6 +56,7 @@ gulp.task("scripts", function () {
       "node_modules/jquery/dist/jquery.min.js",
       "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
       "source/js/jquery.fancybox.min.js",
+      "source/js/slick.min.js",
       "source/js/scripts.js"
     ]),
     concat("scripts.min.js"),

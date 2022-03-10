@@ -17,6 +17,10 @@
   font-size: 18px;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
+
 .fs-24 {
   font-size: 24px;
 }
@@ -37,7 +41,12 @@
 
 @media (max-width: 577px) {
   h2,
-  h2 {
+  .h2 {
     font-size: 32px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 24px;
   }
 }

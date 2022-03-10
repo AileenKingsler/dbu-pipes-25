@@ -23,6 +23,19 @@
 }
 
 .btn {
+  &-secondary {
+    color: $primary;
+
+    &:hover,
+    &:focus,
+    &.focus,
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+
   &-gradient {
     font-size: 12px;
     font-weight: bold;

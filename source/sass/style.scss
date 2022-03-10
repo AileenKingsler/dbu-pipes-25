@@ -2,6 +2,7 @@
 @import 'fonts';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import 'jquery.fancybox.scss';
+@import 'slick.scss';
 @import 'global';
 @import 'blocks/heading-with-icon';
 @import 'blocks/logo';
@@ -13,3 +14,4 @@
 @import 'blocks/map';
 @import 'blocks/estimate-list';
 @import 'blocks/feature-card';
+@import 'blocks/works-slider';
