@@ -1,0 +1,16 @@
+.social {
+  display: flex;
+
+  a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cdcdcd;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
