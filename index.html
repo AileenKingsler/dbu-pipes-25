@@ -14,11 +14,592 @@
 
 <body>
 
-  <div class="bg-light py-80p">
+  <header class="header py-lg-4 py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto mr-auto mr-lg-0">
+          <a class="logo d-flex align-items-center">
+            <img class="img-fluid" src="img/logo.png" alt="">
+            <span class="logo__title ml-3">Доступные <br> бытовые услуги</span>
+          </a>
+        </div>
+        <div class="col-auto">
+          <div class="contact-item font-weight-600">
+            <span class="contact-item__icon mr-2">
+              <img class="img-fluid" src="img/tel-icon.svg" alt="">
+            </span>
+            <div>
+              <a href="tel:+74951157472">+7 495 115-74-72</a>
+              <div class="fs-12 font-weight-500">Работаем с 9:00 до 20:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mr-lg-auto d-none d-md-block">
+          <div class="contact-item font-weight-600">
+            <span class="contact-item__icon mr-2">
+              <img class="img-fluid" src="img/mail-icon.svg" alt="">
+            </span>
+            <div>
+              <a href="mailto:info@dbu-schetchiki.ru">info@dbu-schetchiki.ru</a>
+              <div class="fs-12 font-weight-500">г. Москва, ул.Ярославская д.8/2</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto d-none d-xl-block">
+          <ul class="social list-unstyled mb-0">
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">VK</span>
+                <svg width="41" height="22" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">Telegram</span>
+                <svg width="30" height="30" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">Instagram</span>
+                <svg width="30" height="30" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <button typ="button" class="btn btn-danger btn-gradient btn-with-arrow">
+            Обратный звонок
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="preface">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-xl-6 col-lg-7 col-md-9 preface__text">
+          <h1 class="preface__title mb-0 pr-md-3">
+            <span class="preface__title-small d-block text-primary font-weight-600">Замена труб</span>
+            <span class="text-capitalize d-block">водоснабжения</span>
+            <span class="text-capitalize d-block">канализации</span>
+            <span class="text-capitalize d-block">отопления</span>
+            <span class="preface__title-small d-block font-weight-normal mt-2">
+              в Москве и московской области
+              <span class="text-primary font-weight-bold">за 1 день!</span>
+            </span>
+          </h1>
+          <div class="border-top border-light my-3 my-md-4"></div>
+          <div class="pr-md-3">
+            <p class="fs-24 mb-4">
+              Рассчитайте стоимость работ за 6 шагов, <br>
+              и Вы <span class="text-danger font-weight-bold">БЕСПЛАТНО</span> получите:
+            </p>
+            <ul class="benefits list-unstyled row mb-n3">
+              <li class="col-sm-6 d-flex align-items-center mb-3">
+                <div class="benefits__icon mr-2">
+                  <img class="img-fluid" src="img/note-30.svg" alt="">
+                </div>
+                <span>Подробную смету на выполнение работ</span>
+              </li>
+              <li class="col-sm-6 d-flex align-items-center mb-3">
+                <div class="benefits__icon mr-2">
+                  <img class="img-fluid" src="img/percent-30.svg" alt="">
+                </div>
+                <span>Скидку 10% при заключении договора</span>
+              </li>
+              <li class="col-sm-6 d-flex align-items-center mb-3">
+                <div class="benefits__icon mr-2">
+                  <img class="img-fluid" src="img/truck-30.svg" alt="">
+                </div>
+                <span>Подбор материалов, их закупка и доставка</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-gradient btn-with-arrow min-w-270 mt-4">
+              Рассчитать стоимость
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-5 col-md-3 d-none d-md-block">
+          <img class="preface__img" src="img/preface.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-lg-80p py-60p">
+    <div class="container">
+      <h2 class="heading-with-icon text-center mb-3">Работы с инженерными системами - наш профиль!</h2>
+      <p class="fs-18 text-center mb-40p">Ниже вы найдете информацию об основных услугах, предоставляемых нами</p>
+      <ul class="list-unstyled row mb-n30p">
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-1.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Замена, монтаж, ремонт труб канализации</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена ПВХ труб
+                  <div class="text-primary">от 100 руб./п.м.</div>
+                </li>
+                <li>
+                  Замена чугунных труб
+                  <div class="text-primary">от 200 руб./п.м.</div>
+                </li>
+                <li>
+                  Монтаж ревизии
+                  <div class="text-primary">250 руб./шт.</div>
+                </li>
+                <li>
+                  Устранение течи
+                  <div class="text-primary">от 800 руб./шт.</div>
+                </li>
+                <li>
+                  Замена стояка канализации
+                  <div class="text-primary">от 3800 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-2.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Замена, монтаж, ремонт труб водоснабжения</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена водопроводных труб
+                  <div class="text-primary">от 250 руб./п.м.</div>
+                </li>
+                <li>
+                  Замена стояка водопровода
+                  <div class="text-primary">от 3000 руб./шт.</div>
+                </li>
+                <li>
+                  Замена запорной арматуры
+                  <div class="text-primary">от 600 руб./шт.</div>
+                </li>
+                <li>
+                  Устранение течи трубы
+                  <div class="text-primary">от 400 руб./п.м.</div>
+                </li>
+                <li>
+                  Монтаж коллектора
+                  <div class="text-primary">от 1200 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-3.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Замена, монтаж, ремонт труб отопления</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена труб отопления
+                  <div class="text-primary">от 300 руб./п.м.</div>
+                </li>
+                <li>
+                  Замена стояка отопления
+                  <div class="text-primary">от 3000 руб./шт.</div>
+                </li>
+                <li>
+                  Замена перемычки
+                  <div class="text-primary">от 2000 руб./шт.</div>
+                </li>
+                <li>
+                  Устранение течи трубы
+                  <div class="text-primary">от 400 руб./шт.</div>
+                </li>
+                <li>
+                  Замена запорной арматуры
+                  <div class="text-primary">от 800 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-4.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Замена, монтаж, ремонт сантехоборудования</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена смесителя
+                  <div class="text-primary">от 500 руб./шт.</div>
+                </li>
+                <li>
+                  Замена унитаза
+                  <div class="text-primary">от 3000 руб./шт.</div>
+                </li>
+                <li>
+                  Замена ванны
+                  <div class="text-primary">от 500 руб./шт.</div>
+                </li>
+                <li>
+                  Замена раковины/мойки
+                  <div class="text-primary">от 1800 руб./шт.</div>
+                </li>
+                <li>
+                  Замена полотенцесушителя
+                  <div class="text-primary">от 2800 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-5.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Установка и обслуживание счетчиков воды и тепла</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена счетчика воды
+                  <div class="text-primary">от 1300 руб./шт.</div>
+                </li>
+                <li>
+                  Замена счетчка тепла
+                  <div class="text-primary">от 4900 руб./шт.</div>
+                </li>
+                <li>
+                  Замена фильтра
+                  <div class="text-primary">от 300 руб./шт.</div>
+                </li>
+                <li>
+                  Устранение течи счетчика
+                  <div class="text-primary">от 800 руб./шт.</div>
+                </li>
+                <li>
+                  Монтаж счетчика воды
+                  <div class="text-primary">от 1800 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-6 mb-30p">
+          <div class="service-card row no-gutters">
+            <div class="col-sm-6">
+              <img class="service-card__img img-fluid" src="img/service-6.png" alt="">
+            </div>
+            <div class="col-sm-6 p-3 service-card__text">
+              <h3 class="fs-18 mb-3">Замена, монтаж, ремонт радиаторов отопления</h3>
+              <ul class="service-card__list list-unstyled mb-3">
+                <li>
+                  Замена радиатора
+                  <div class="text-primary">от 3300 руб./шт.</div>
+                </li>
+                <li>
+                  Перенос стояка отопления
+                  <div class="text-primary">от 4200 руб./шт.</div>
+                </li>
+                <li>
+                  Монтаж шарового крана
+                  <div class="text-primary">от 800 руб./шт.</div>
+                </li>
+                <li>
+                  Замена подводки труб
+                  <div class="text-primary">от 600 руб./точка.</div>
+                </li>
+                <li>
+                  Замена креплений
+                  <div class="text-primary">от 1200 руб./шт.</div>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-danger btn-gradient btn-with-arrow mt-auto">
+                Обратный звонок
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bg-light py-lg-80p py-60p">
+    <div class="container">
+      <h2 class="text-center mb-40p">Используемые материалы</h2>
+      <ul class="list-unstyled row justify-content-center mb-n30p">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-1.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>Полипропиленовые трубы</div>
+            </div>
+          </div>
+        </li>
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-2.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>Металлопластиковые трубы</div>
+            </div>
+          </div>
+        </li>
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-3.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>ПВХ трубы</div>
+            </div>
+          </div>
+        </li>
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-4.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>Трубы РЕХАУ</div>
+            </div>
+          </div>
+        </li>
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-5.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>Медные трубы</div>
+            </div>
+          </div>
+        </li>
+        <li class="col-xl-2 col-lg-3 col-md-4 col-6 mb-30p">
+          <div class="material-card">
+            <img class="material-card__img img-fluid" src="img/material-6.png" alt="">
+            <div class="material-card__caption">
+              <img class="img-fluid mb-2" src="img/arrow-danger.svg" alt="">
+              <div>Стальные трубы</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="mt-40p mb-40p text-center">
+        <img class="img-fluid" src="img/arrow-primary.svg" alt="">
+        <p class="fs-24">от ведущих российских и зарубежных производителей</p>
+      </div>
+      <ul class="list-unstyled row mb-n30p">
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-1.png" alt="">
+          </div>
+        </li>
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-2.png" alt="">
+          </div>
+        </li>
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-3.png" alt="">
+          </div>
+        </li>
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-4.png" alt="">
+          </div>
+        </li>
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-5.png" alt="">
+          </div>
+        </li>
+        <li class="col-lg-4 col-6 mb-30p">
+          <div class="vendor-card">
+            <img class="img-fluid" src="img/vendor-6.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-lg-80p py-60p">
+    <div class="container">
+      <div class="row mb-30p">
+        <div class="col-xl-5 col-lg-6 mb-3 mb-lg-0">
+          <h2 class="mb-0">Честные и прозрачные цены на услуги</h2>
+        </div>
+        <div class="col-xl-7 col-lg-6">
+          <p class="mb-0">Мы не говорим, что сделаем дешевле всех. Мы понимаем, что это невозможно без использования качественных материалов и привлечения профессиональных работников. Но, обращаясь к нам, вы сможете избежать ситуации "скупой платит дважды"</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-7">
+          <ol class="estimate-list list-unstyled mb-0">
+            <li><span>Для расчета точной стоимости услуг, на каждый объект мы составляем смету. Выезд мастера для ее составления осуществляется бесплатно.</span></li>
+            <li><span>Наличие сметы не обязывает клиента делать заказ. Вы просто получаете наше предложение по выполнению Вашей задачи.</span></li>
+            <li><span>Стоимость ремонтных работ не меняется в процессе их выполнения, за исключением случаев, когда Заказчик сам меняет проект.</span></li>
+          </ol>
+          <a href="#" class="btn btn-danger btn-gradient btn-with-arrow min-w-270 mt-md-5 mt-4">
+            Получить смету
+          </a>
+        </div>
+        <div class="col-lg-5 offset-xl-1 d-none d-lg-block">
+          <img class="img-fluid" src="img/estimate.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-lg-80p pb-60p">
+    <div class="container">
+      <h2 class="heading-with-icon text-center mb-3">Чтобы избежать проблем, обращайтесь к профессионалам</h2>
+      <p class="fs-18 text-center mb-40p">Все наши специалисты имеют опыт работы не менее 3х лет. <br>Работаем честно и на результат.</p>
+      <ul class="list-unstyled row justify-content-center mb-n30p">
+        <li class="col-lg-4 col-sm-6 mb-30p">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img class="img-fluid" src="img/calendar.svg" alt="">
+            </div>
+            Соблюдаем сроки, прописанные в договоре
+          </div>
+        </li>
+        <li class="col-lg-4 col-sm-6 mb-30p">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img class="img-fluid" src="img/empty-wallet.svg" alt="">
+            </div>
+            Прозрачные цены, работаем без предоплаты
+          </div>
+        </li>
+        <li class="col-lg-4 col-sm-6 mb-30p">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img class="img-fluid" src="img/warranty.svg" alt="">
+            </div>
+            Даем гарантию на работу 12 месяцев
+          </div>
+        </li>
+        <li class="col-lg-4 col-sm-6 mb-30p">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img class="img-fluid" src="img/brifecase-timer.svg" alt="">
+            </div>
+            Используем профессиональное оборудование
+          </div>
+        </li>
+        <li class="col-lg-4 col-sm-6 mb-30p">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <img class="img-fluid" src="img/note.svg" alt="">
+            </div>
+            Полный спектр услуг по инженерным услугам
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pb-lg-80p pb-60p">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="mb-4">Наши цели</h2>
+          <p class="fs-18 mb-4">Обеспечить ремонт без головной боли. Окружить клиента заботой и вниманием на всех этапах. Развеять все негативные предубеждения.</p>
+          <p class="fs-24 font-weight-500 mb-4">Расскажите о своей задаче по телефону или через форму онлайн заявки:</p>
+          <a href="#" class="btn btn-primary btn-gradient btn-with-arrow min-w-270">
+            Рассчитать стоимость
+          </a>
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+          <img class="img-fluid" src="img/goals.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-lg-80p pb-60p">
+    <div class="container">
+      <h2 class="heading-with-icon text-center mb-3">Фотографии наших последних работ</h2>
+      <p class="fs-18 text-center mb-40p">Фото выполненных работ и краткое описание проделанного</p>
+      <ul class="list-unstyled works-slider mb-0">
+        <li class="works-slider__item">
+          <div class="row align-items-start">
+            <div class="col-md-6 works-slider__item-photos">
+              <a href="img/work-1.png" class="works-slider__item-photo" data-fancybox="work-1">
+                <img class="img-fluid" src="img/work-1.png" alt="">
+              </a>
+              <a href="img/work-2.png" class="works-slider__item-photo" data-fancybox="work-1">
+                <img class="img-fluid" src="img/work-2.png" alt="">
+              </a>
+              <a href="img/work-3.png" class="works-slider__item-photo" data-fancybox="work-1">
+                <img class="img-fluid" src="img/work-3.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 works-slider__item-text mt-3 mt-md-0">
+              <div class="text-primary fs-20">Московская область</div>
+              <h3 class="mb-3">Монтаж инженерных систем</h3>
+              <p>Монтаж системы отопления, ГВС и ХВС в частном доме. Смонтировано более 200 п.м. трубопроводов. Разводка труб от насосной станции и котельной. Установка сопутствующего оборудования. В работе использовалась коллекторная схема разводки. Подбор и поставка оборудования осуществлялись сотрудниками нашей компании.</p>
+            </div>
+          </div>
+        </li>
+        <li class="works-slider__item">
+          <div class="row align-items-start">
+            <div class="col-md-6 works-slider__item-photos">
+              <a href="img/work-1.png" class="works-slider__item-photo" data-fancybox="work-2">
+                <img class="img-fluid" src="img/work-1.png" alt="">
+              </a>
+              <a href="img/work-2.png" class="works-slider__item-photo" data-fancybox="work-2">
+                <img class="img-fluid" src="img/work-2.png" alt="">
+              </a>
+              <a href="img/work-3.png" class="works-slider__item-photo" data-fancybox="work-2">
+                <img class="img-fluid" src="img/work-3.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 works-slider__item-text mt-3 mt-md-0">
+              <div class="text-primary fs-20">Московская область</div>
+              <h3 class="mb-3">Монтаж инженерных систем</h3>
+              <p>Монтаж системы отопления, ГВС и ХВС в частном доме. Смонтировано более 200 п.м. трубопроводов. Разводка труб от насосной станции и котельной. </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bg-light py-lg-80p py-60p">
     <div class="container">
       <h2 class="heading-with-icon text-center mb-40p">Ответы на часто задаваемые вопросы</h2>
-      <div class="accordion" id="accordionFaq">
-        <div class="accordion__item">
+      <ul class="list-unstyled accordion mb-0" id="accordionFaq">
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-1">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
               <span>Какие трубы самые лучшие?</span>
@@ -30,8 +611,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
             </div>
           </div>
-        </div>
-        <div class="accordion__item">
+        </li>
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-2">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
               <span>Какую гарантию Вы даете?</span>
@@ -43,8 +624,8 @@
               <p>Гарантийный срок на все виды работ, произведённых нашими специалистами, составляет 12 месяцев. Если в течение года возникнут какие-либо дефекты, их устранение мы берём на себя. Более подробно условия гарантии прописаны в договоре. К выполнению гарантийных обязательств мы подходим очень ответственно. От качества проведённых работ напрямую зависит количество наших Заказчиков. Лучшая реклама для нас – это рекомендации наших клиентов.</p>
             </div>
           </div>
-        </div>
-        <div class="accordion__item">
+        </li>
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-3">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
               <span>Потребуется ли вносить аванс за планируемые ремонтные работы?</span>
@@ -56,8 +637,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
             </div>
           </div>
-        </div>
-        <div class="accordion__item">
+        </li>
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-4">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
               <span>Какова квалификация специалистов, работающих в вашей компании?</span>
@@ -69,8 +650,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
             </div>
           </div>
-        </div>
-        <div class="accordion__item">
+        </li>
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-5">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
               <span>Может ли Заказчик сам купить и доставить материалы?</span>
@@ -82,8 +663,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
             </div>
           </div>
-        </div>
-        <div class="accordion__item">
+        </li>
+        <li class="accordion__item">
           <h3 class="mb-0" id="heading-6">
             <button class="accordion__item-toggle btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
               <span>Можно ли сэкономить на ремонте?</span>
@@ -95,21 +676,21 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi nunc, mattis non rutrum et, aliquam quis elit. Sed vitae mauris sem. Suspendisse laoreet arcu massa, at sodales neque pharetra sit amet. Morbi quis ante sed erat convallis facilisis.</p>
             </div>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
       <div class="text-center mt-30p">
         <a href="#" class="btn btn-danger btn-gradient btn-with-arrow min-w-270">
           Задать вопрос
         </a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="bg-light pb-80p">
+  <section class="bg-light pb-lg-80p pb-60p">
     <div class="container">
       <h2 class="heading-with-icon text-center mb-40p">Наши допуски и примеры документов</h2>
-      <div class="row mb-n30p">
-        <div class="col-lg-3 col-sm-6 mb-30p">
+      <ul class="list-unstyled row mb-n30p">
+        <li class="col-lg-3 col-6 mb-30p">
           <div class="doc-card">
             <a href="img/doc-1.png" class="d-block" data-fancybox="docs">
               <img src="img/doc-1.png" class="img-fluid shadow-sm border" alt="">
@@ -119,8 +700,8 @@
               <div>Допуск СРО</div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-30p">
+        </li>
+        <li class="col-lg-3 col-6 mb-30p">
           <div class="doc-card">
             <a href="img/doc-2.png" class="d-block" data-fancybox="docs">
               <img src="img/doc-2.png" class="img-fluid shadow-sm border" alt="">
@@ -130,8 +711,8 @@
               <div>Пример договора</div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-30p">
+        </li>
+        <li class="col-lg-3 col-6 mb-30p">
           <div class="doc-card">
             <a href="img/doc-3.png" class="d-block" data-fancybox="docs">
               <img src="img/doc-3.png" class="img-fluid shadow-sm border" alt="">
@@ -141,8 +722,8 @@
               <div>Акт сдачи-приемки работ</div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-30p">
+        </li>
+        <li class="col-lg-3 col-6 mb-30p">
           <div class="doc-card">
             <a href="img/doc-4.png" class="d-block" data-fancybox="docs">
               <img src="img/doc-4.png" class="img-fluid shadow-sm border" alt="">
@@ -152,10 +733,146 @@
               <div>Пример сметы</div>
             </div>
           </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="map">
+    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?feedback=map%2Fedit&feedback-context=map.controls&ll=37.642698%2C55.817890&utm_medium=mapframe&utm_source=maps&z=17.15" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUBMTuS-A" width="100%" height="670" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+    <section class="map-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-7 col-lg-8">
+            <div class="map-info">
+              <h2 class="mb-4">Контакты</h2>
+              <ul class="list-unstyled row mb-n4">
+                <li class="col-sm-6 mb-4">
+                  <div class="contact-item font-weight-600">
+                    <span class="contact-item__icon mr-2">
+                      <img class="img-fluid" src="img/tel-icon.svg" alt="">
+                    </span>
+                    <a href="tel:+74951157472">+7 495 115-74-72</a>
+                  </div>
+                </li>
+                <li class="col-sm-6 mb-4">
+                  <div class="contact-item font-weight-600">
+                    <span class="contact-item__icon mr-2">
+                      <img class="img-fluid" src="img/mail-icon.svg" alt="">
+                    </span>
+                    <a href="mailto:info@dbu-schetchiki.ru">info@dbu-schetchiki.ru</a>
+                  </div>
+                </li>
+                <li class="col-sm-6 mb-4">
+                  <div class="contact-item font-weight-600">
+                    <span class="contact-item__icon mr-2">
+                      <img class="img-fluid" src="img/address-icon.svg" alt="">
+                    </span>
+                    <span>Москва, ул. ярославская <br>д 8/2 оф. 105</span>
+                  </div>
+                </li>
+                <li class="col-sm-6 mb-4">
+                  <div class="contact-item font-weight-600">
+                    <span class="contact-item__icon mr-2">
+                      <img class="img-fluid" src="img/clock-icon.svg" alt="">
+                    </span>
+                    <span class="fs-12 font-weight-500">
+                      Режим работы: Понедельник — суббота<br>
+                      с 9:00 до 21:00, без перерыва<br>
+                      воскресенье - выходной
+                    </span>
+                  </div>
+                </li>
+              </ul>
+              <div class="row align-items-end mt-30p">
+                <div class="col-sm min-w-0">
+                  <p class="map-requisites font-weight-600 mb-0">
+                    ООО “Доступные бытовые услуги”<br>
+                    ИНН:7728422498<br>
+                    КПП:772801001
+                  </p>
+                </div>
+                <div class="col-sm-auto mt-3 mt-sm-0">
+                  <a href="#" class="btn btn-primary btn-gradient btn-with-arrow min-w-270">
+                    Заказать консультацию
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="py-xl-40p py-lg-30p py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto d-none d-xl-block">
+          <a class="logo d-flex align-items-center">
+            <img class="img-fluid" src="img/logo.png" alt="">
+            <span class="ml-3">Доступные <br> бытовые услуги</span>
+          </a>
+        </div>
+        <div class="col-sm-auto mb-3 mb-md-0">
+          <div class="contact-item font-weight-600">
+            <span class="contact-item__icon mr-2">
+              <img class="img-fluid" src="img/tel-icon.svg" alt="">
+            </span>
+            <div>
+              <a href="tel:+74951157472">+7 495 115-74-72</a>
+              <div class="fs-12 font-weight-500">Работаем с 9:00 до 20:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-auto mr-auto mb-3 mb-md-0">
+          <div class="contact-item font-weight-600">
+            <span class="contact-item__icon mr-2">
+              <img class="img-fluid" src="img/mail-icon.svg" alt="">
+            </span>
+            <div>
+              <a href="mailto:info@dbu-schetchiki.ru">info@dbu-schetchiki.ru</a>
+              <div class="fs-12 font-weight-500">г. Москва, ул.Ярославская д.8/2</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-auto">
+          <ul class="social list-unstyled mb-0">
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">VK</span>
+                <svg width="41" height="22" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">Telegram</span>
+                <svg width="30" height="30" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-link p-0" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="sr-only">Instagram</span>
+                <svg width="30" height="30" fill="currentColor" aria-hidden="true" focusable="false">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <a href="#" class="btn btn-danger btn-gradient btn-with-arrow">
+            Обратный звонок
+          </a>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 
   <script src="js/scripts.min.js"></script>
 </body>
