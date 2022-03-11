@@ -8,4 +8,10 @@
     text-decoration: none;
     color: inherit;
   }
+
+  &__title {
+    @media (max-width: 439px) {
+      display: none;
+    }
+  }
 }
