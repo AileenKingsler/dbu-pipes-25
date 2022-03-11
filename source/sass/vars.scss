@@ -6,6 +6,7 @@ $light: #f6f7fb;
 $secondary: #e9f6ff;
 $headings-font-weight: bold;
 $font-size-base: 1rem;
+$h1-font-size: $font-size-base * 3;
 $h2-font-size: $font-size-base * 2.25;
 
 $spacers: ();
@@ -13,6 +14,7 @@ $spacers: map-merge(
   (
     30p: 30px,
     40p: 40px,
+    60p: 60px,
     80p: 80px,
   ),
   $spacers

@@ -1,24 +1,6 @@
-@property --blue1 {
-  syntax: '<color>';
-  initial-value: #4879f8;
-  inherits: false;
-}
-
-@property --blue2 {
-  syntax: '<color>';
-  initial-value: #1bbaff;
-  inherits: false;
-}
-
-@property --red1 {
-  syntax: '<color>';
-  initial-value: #f55757;
-  inherits: false;
-}
-
-@property --red2 {
-  syntax: '<color>';
-  initial-value: #f99b77;
+@property --colorstop {
+  syntax: '<percentage>';
+  initial-value: 0%;
   inherits: false;
 }
 
@@ -42,23 +24,26 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 25px;
+    transition: --colorstop 0.4s;
+
+    &:hover {
+      --colorstop: 30%;
+    }
 
     &.btn-primary {
-      background-image: linear-gradient(90deg, var(--blue1), var(--blue2));
-      transition: --blue2 0.4s;
-
-      &:hover {
-        --blue2: var(--blue1);
-      }
+      background-image: linear-gradient(
+        to right,
+        var(--blue1) var(--colorstop),
+        var(--blue2)
+      );
     }
 
     &.btn-danger {
-      background-image: linear-gradient(90deg, var(--red1), var(--red2));
-      transition: --red2 0.4s;
-
-      &:hover {
-        --red2: var(--red1);
-      }
+      background-image: linear-gradient(
+        to right,
+        var(--red1) var(--colorstop),
+        var(--red2)
+      );
     }
   }
 

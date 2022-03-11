@@ -1,0 +1,21 @@
+.preface {
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    &-small {
+      font-size: 18px;
+      letter-spacing: 0.04em;
+    }
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70%;
+  }
+}
