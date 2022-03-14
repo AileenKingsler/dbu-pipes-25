@@ -33,6 +33,15 @@ $container-max-widths: (
   xl: 1200px,
 );
 
+$border-radius: 6px;
+$border-radius-lg: 10px;
+$input-line-height: 1;
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 1rem;
+$input-btn-padding-y-lg: 1.5625rem;
+$input-btn-padding-x-lg: 1.25rem;
 $input-btn-focus-width: 0;
 $btn-border-width: 0;
-$btn-border-radius-lg: 6px;
+$btn-border-radius-lg: $border-radius;
+$modal-header-border-width: 0;
+$modal-backdrop-opacity: 0.7;

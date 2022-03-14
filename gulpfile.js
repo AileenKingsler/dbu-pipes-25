@@ -27,7 +27,8 @@ gulp.task("copy", function () {
   return gulp.src([
     "source/fonts/**/*",
     "source/img/**/*",
-    "source/favicon.ico"
+    "source/favicon.ico",
+    "source/mail.php"
   ], {
     base: "source",
     allowEmpty: true

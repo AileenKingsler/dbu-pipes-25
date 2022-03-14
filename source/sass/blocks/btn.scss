@@ -23,7 +23,6 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 25px;
     transition: --colorstop 0.4s;
 
     &:hover {
@@ -50,14 +49,14 @@
   &-with-arrow {
     position: relative;
     text-align: left;
-    padding-right: 60px;
+    padding-right: 40px;
 
     &::after {
       content: '';
       position: absolute;
-      right: 25px;
+      right: 15px;
       top: 50%;
-      margin-top: -10px;
+      margin-top: -11px;
       width: 20px;
       height: 20px;
       background-repeat: no-repeat;
@@ -68,7 +67,7 @@
 
     &:hover {
       &::after {
-        right: 15px;
+        right: 10px;
       }
     }
   }

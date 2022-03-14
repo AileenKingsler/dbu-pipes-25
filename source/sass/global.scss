@@ -34,7 +34,15 @@
   font-weight: 600;
 }
 
+.send-success {
+  display: none;
+}
+
 @media (min-width: 576px) {
+  .min-w-220 {
+    min-width: 220px;
+  }
+
   .min-w-270 {
     min-width: 270px;
   }
