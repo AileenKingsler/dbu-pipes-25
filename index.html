@@ -759,7 +759,7 @@
         </li>
       </ul>
       <div class="text-center mt-30p">
-        <button type="button" class="btn btn-lg btn-danger btn-gradient btn-with-arrow min-w-270">
+        <button type="button" class="btn btn-lg btn-danger btn-gradient btn-with-arrow min-w-270" data-toggle="modal" data-target="#questionModal">
           Задать вопрос
         </button>
       </div>
@@ -976,6 +976,43 @@
             <div class="custom-control custom-checkbox mb-3">
               <input type="checkbox" class="custom-control-input" id="accept-1" checked="" required="">
               <label class="custom-control-label" for="accept-1">
+                Нажимая на кнопку, вы принимаете условия передачи данных
+              </label>
+            </div>
+            <button type="submit" class="btn btn-danger btn-gradient btn-block">Отправить</button>
+          </form>
+          <div class="send-success alert alert-success mt-3">Ваше сообщение отправлено, в течение 5 минут наш консультант свяжется с Вами!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title h5" id="questionModalLabel">Задать вопрос</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body pt-0">
+          <form>
+            <div class="form-group">
+              <label for="name-callback">Имя</label>
+              <input type="text" class="form-control" id="name-callback" name="name" placeholder="Иван Иванов">
+            </div>
+            <div class="form-group">
+              <label for="phone-callback">Телефон <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="phone-callback" name="phone" placeholder="8-999-999-99-99" required="">
+            </div>
+            <div class="form-group">
+              <label for="question-callback">Ваш вопрос</label>
+              <textarea class="form-control" id="question-callback" name="question"></textarea>
+            </div>
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="accept-2" checked="" required="">
+              <label class="custom-control-label" for="accept-2">
                 Нажимая на кнопку, вы принимаете условия передачи данных
               </label>
             </div>
