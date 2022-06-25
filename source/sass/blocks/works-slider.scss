@@ -33,7 +33,10 @@
 
     &-text {
       font-size: 18px;
-      padding-bottom: 70px;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
